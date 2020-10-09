@@ -6,6 +6,13 @@ public class GraphicTabletPen {
 
     GraphicTabletPen() {};
 
+    public GraphicTabletPen(String name, int sensitivity, boolean tiltAngleRecognition, int readingHeight) {
+        this.name = name;
+        this.sensitivity = sensitivity;
+        this.tiltAngleRecognition = tiltAngleRecognition;
+        this.readingHeight = readingHeight;
+    }
+
     public String getName() {
         return name;
     }
